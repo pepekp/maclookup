@@ -1,5 +1,5 @@
 import requests
-import pandas as pd
+
 
 def get_oui_data():
     url = 'https://standards-oui.ieee.org/oui/oui.csv'
