@@ -5,8 +5,8 @@ options = ('s', 'u', 'x')
 while True:
     print("*** SELECT OPTION ***")
     print()
-    print('s = SEARCH')
-    print('u = UPGRADE DB')
+    print('s = SEARCH MAC ADDRESS')
+    print('u = UPDATE DB FILE')
     print('x = EXIT')
     print()
     user_input = input('Enter an option: ')
@@ -27,9 +27,10 @@ while True:
             print()
             print('***********************************')
         elif user_input == 'u':
-            print('Plese wait to update OUI database file')
+            print('OUI database file being updated')
             from oui_db import get_oui_data
-            print('Database file has been updated successful')
+            print()
+            print('OUI database file has been updated successful')
         elif user_input == 'x':
             exit()
     else:
