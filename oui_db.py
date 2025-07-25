@@ -11,4 +11,4 @@ def get_oui_data():
         db.write(r)
     db.close()
 
-get_oui_data()
+
