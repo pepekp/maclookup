@@ -1,4 +1,7 @@
 import requests
+"""
+Update source from below URL.
+"""
 
 
 def get_oui_data():
